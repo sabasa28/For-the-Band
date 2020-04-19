@@ -30,5 +30,3 @@ if (CurrHorSp<0)
 	image_xscale = spriteScale;
 if (CurrHorSp>0)
 	image_xscale = -spriteScale;
-	
-show_debug_message(id);
