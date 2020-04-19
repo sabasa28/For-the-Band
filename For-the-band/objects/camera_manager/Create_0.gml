@@ -1,5 +1,7 @@
 /// @description Insert description here
 
+x=player.x;
+y=player.x;
 cam =view_camera[0];
 follow= player;
 view_w_half = camera_get_view_width(cam) /2;

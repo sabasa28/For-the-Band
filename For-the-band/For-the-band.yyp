@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "a5c0d00a-bc8f-43d8-96f6-eabf9067186d",
+            "Value": {
+                "id": "a3461b4d-87e1-483e-abc4-27ad53211b9a",
+                "resourcePath": "sprites\\yellow_cap_dude\\yellow_cap_dude.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "d1020136-0e7a-446a-ae70-2214ee50ae8a",
@@ -242,7 +250,7 @@
             "Key": "cb762bca-fccd-4981-8b24-140c5d253e7d",
             "Value": {
                 "id": "40633fbc-c700-46f7-85c0-311d1f84a19e",
-                "resourcePath": "sprites\\red_cap_dude\\red_cap_dude.yy",
+                "resourcePath": "sprites\\green_cap_dude\\green_cap_dude.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -332,6 +340,14 @@
                 "id": "3d92d70f-e989-4aa9-af43-ec35dbfa07b4",
                 "resourcePath": "views\\f6a13c95-be78-4832-a5d3-2636d4db147f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f8e290cd-4527-495d-a18a-0faf2e85c1d6",
+            "Value": {
+                "id": "bbe199df-4b23-42fb-885c-3f25c4757b56",
+                "resourcePath": "sprites\\purple_cap_dude\\purple_cap_dude.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
