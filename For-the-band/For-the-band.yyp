@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1dab6713-f187-4681-9d5d-4ca536ea20a6",
+            "Value": {
+                "id": "5c28491f-3305-4f4b-b019-d082168077b4",
+                "resourcePath": "objects\\yellow_fan\\yellow_fan.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "212e0eb2-2c9a-436b-9e73-6a41959e2bc7",
             "Value": {
                 "id": "f0346f2e-c60b-4c9e-89f3-925db789feb2",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "87cd9a00-2606-44ef-91ca-15dec40877ed",
+            "Value": {
+                "id": "8d33a950-1a05-4fa6-83eb-d09ab370574d",
+                "resourcePath": "scripts\\InstanciateLvl\\InstanciateLvl.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a3f6b4a7-603f-41a7-b7d9-e75ee140f8a5",
             "Value": {
                 "id": "8265f31a-7d4a-4f9b-a2d9-902442183eef",
@@ -212,6 +228,14 @@
                 "id": "4039bc5a-ed7b-47f4-9e39-f6b17527dd51",
                 "resourcePath": "views\\ac657162-cef7-404b-bbdd-2526996602d8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ad0d3671-e817-418a-80d8-2c4576a856dd",
+            "Value": {
+                "id": "63bc045b-97f3-4d96-9ba1-ba0db5533cce",
+                "resourcePath": "sounds\\Hurt1\\Hurt1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -268,6 +292,14 @@
                 "id": "30a57285-d25f-461d-bd82-4f21d73dcec4",
                 "resourcePath": "views\\cfef1e4c-fad7-4c01-884b-2cfc9bd3b1c7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dc7197c8-4d4a-45b1-80f2-ee1b620511d5",
+            "Value": {
+                "id": "6b54b9dc-e650-401c-b19a-f997c10a9421",
+                "resourcePath": "objects\\purple_fan\\purple_fan.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -349,11 +381,20 @@
                 "resourcePath": "sprites\\purple_cap_dude\\purple_cap_dude.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "fc3ea148-a9db-4365-9711-7accf07f5378",
+            "Value": {
+                "id": "0cb0f917-7615-465e-a1fc-49c37e832454",
+                "resourcePath": "sounds\\Hurt2\\Hurt2.yy",
+                "resourceType": "GMSound"
+            }
         }
     ],
     "script_order": [
         "308369ed-8ae0-4a49-9472-1731cea65c73",
-        "21dec488-a554-48a3-acd3-d79f96cfd8c8"
+        "21dec488-a554-48a3-acd3-d79f96cfd8c8",
+        "87cd9a00-2606-44ef-91ca-15dec40877ed"
     ],
     "tutorial": ""
 }

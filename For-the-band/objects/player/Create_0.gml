@@ -1,5 +1,6 @@
 /// @description Variable original settings
 // You can write your code in this editor
+
 movementSp = 10;
 jumpSp = -20;
 CurrHorSp=0;
