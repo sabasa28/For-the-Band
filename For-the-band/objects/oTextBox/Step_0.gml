@@ -1,7 +1,6 @@
 /// @description Insert description here
 if(keyboard_check_pressed(ord("Z")) && (appearChoices == false))
 {
-	show_debug_message("dea!");
 
 	if(charCount < string_length(text[page]))
 	{
