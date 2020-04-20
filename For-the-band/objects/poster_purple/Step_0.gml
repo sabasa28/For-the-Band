@@ -1,3 +1,3 @@
 /// @description press F to destroy
 
-GetDestroyed(player.distanceToInteract,player,purple_fan);
+GetDestroyed(oPlayer.distanceToInteract,oPlayer,purple_fan);

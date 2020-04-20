@@ -8,7 +8,7 @@
 if (instance_exists(argument0))
 {
 	CurrHorSp = speed * sign(argument0.x-x);
-	argument0.ableToMove=false;
-	alert=false;
-	running=true;
+	argument0.ableToMove = false;
+	alert = false;
+	running = true;
 }

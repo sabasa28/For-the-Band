@@ -18,7 +18,7 @@ if (instance_exists(argument1))
 			{
 				(instance_nearest(x,y,argument2)).alert=true; //instance_nearest(x,y,argument2).x=10;// argument2.instance_id(instance_nearest(x,y,argument2)).alert=true;
 			}
-			player.bandPoints+=2;
+			oPlayer.bandPoints+=2;
 			instance_destroy();
 		}
 	}

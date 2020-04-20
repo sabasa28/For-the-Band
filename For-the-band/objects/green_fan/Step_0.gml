@@ -3,11 +3,11 @@
 
 if (alert==true)
 {
-	Punch(player);
+	Punch(oPlayer);
 }
 if (running)//hay que arreglar cosas cuando pongamos la camara bien
 {
-	if (abs(player.x-x)<punchRange)
+	if (abs(oPlayer.x-x)<punchRange)
 	{
 		punched=true;
 		if(irandom_range(0,1))
@@ -20,13 +20,13 @@ if (running)//hay que arreglar cosas cuando pongamos la camara bien
 }	
 if (punched)
 {
-	player.ableToMove=false;
-	player.sprite_index=beard_dude_r1;
-	player.image_index=3;
-	if(abs(player.x-x)>800)
+	oPlayer.ableToMove=false;
+	oPlayer.sprite_index=beard_dude_r1;
+	oPlayer.image_index=3;
+	if(abs(oPlayer.x-x)>800)
 	{
-	player.ableToMove=true;
-	player.image_index=0;
+	oPlayer.ableToMove=true;
+	oPlayer.image_index=0;
 	instance_destroy();
 	}
 }
