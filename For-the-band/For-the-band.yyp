@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "8311673c-4b72-4fb9-8d8d-0501958b738c",
+            "Value": {
+                "id": "24725bef-5f12-4f73-a081-200f2f0516ad",
+                "resourcePath": "sprites\\poster_sprt_red\\poster_sprt_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "87cd9a00-2606-44ef-91ca-15dec40877ed",
             "Value": {
                 "id": "8d33a950-1a05-4fa6-83eb-d09ab370574d",
@@ -227,6 +235,22 @@
             "Value": {
                 "id": "091687d8-d359-4dfa-804c-cbe71be92f55",
                 "resourcePath": "objects\\band_member2\\band_member2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8ee8b0b6-db99-4ba7-afea-7d03dce73d88",
+            "Value": {
+                "id": "a4a201ee-7f14-4320-b3ce-9f7cb06324c6",
+                "resourcePath": "sprites\\poster_free_spot\\poster_free_spot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9ce72f54-05f3-4f32-a4ac-85a5a95e1e42",
+            "Value": {
+                "id": "f37145b9-7038-4e39-90f4-5f0d8deaa7e2",
+                "resourcePath": "objects\\poster_spot\\poster_spot.yy",
                 "resourceType": "GMObject"
             }
         },

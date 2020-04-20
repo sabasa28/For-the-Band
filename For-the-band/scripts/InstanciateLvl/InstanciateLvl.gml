@@ -25,7 +25,7 @@ if (argument0==1)
 			auxY=400;
 		break;
 		}
-		rand=irandom_range(0,2);
+		rand=irandom_range(0,4);
 		switch (rand)
 		{
 		case 0:
@@ -37,10 +37,14 @@ if (argument0==1)
 		case 2:
 				saveID=instance_create_depth(buildingX,auxY,5,poster_yellow);
 		break;
+		case 3:
+		case 4:
+				saveID=instance_create_depth(buildingX,auxY,5,poster_spot);
+		break;
 		}
 		(saveID).image_xscale=3;
 		(saveID).image_yscale=3;
-		buildingX += irandom_range(600,1000);
+		buildingX += irandom_range(400,800);
 	}
 	buildingX=irandom_range(600,1000);
 	while (buildingX < room_width)
