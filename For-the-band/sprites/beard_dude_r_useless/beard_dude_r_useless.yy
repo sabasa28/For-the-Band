@@ -2,7 +2,7 @@
     "id": "a3f6b4a7-603f-41a7-b7d9-e75ee140f8a5",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "beard_dude_r",
+    "name": "beard_dude_r_useless",
     "For3D": false,
     "HTile": false,
     "VTile": false,
