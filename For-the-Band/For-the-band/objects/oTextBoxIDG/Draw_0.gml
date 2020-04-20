@@ -9,7 +9,7 @@ draw_set_font(fText);
 // Appear of the letters
 if (charCount < string_length(text[page,0]))
 {
-	charCount += 1;
+	charCount += 0.5;
 }
 textPart = string_copy(text[page,0], 1, charCount);
 

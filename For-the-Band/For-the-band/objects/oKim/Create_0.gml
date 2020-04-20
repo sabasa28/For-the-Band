@@ -5,8 +5,6 @@ depth = 3;
 //myTEX[0, 0]= "Hi, i  have a band";
 //myTEX[0, 1]= true;
 
-
-
 myName = "Kim";
 
 //Player
