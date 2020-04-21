@@ -1,43 +1,43 @@
 /// @description Insert description here
 event_inherited();
 
-if (instance_exists(oTextBoxIDG))
+if (instance_exists(myTextboxIDG))
 {
-	if (oTextBoxIDG.page == 0)
+	switch (myTextboxIDG.page)
 	{
-		oTextBoxIDG.playerTalking = true;
+	case 0:
+	case 2:
+	case 4:
+	case 7:
+	case 10:
+	case 14:
+		myTextboxIDG.playerTalking = true;
+	break;
+	case 1:
+	case 3:
+	case 5:
+	case 6:
+	case 8:
+	case 9:
+	case 11:
+	case 12:
+	case 13:
+			myTextboxIDG.playerTalking = false;
+	break;
 	}
-	else
-	{
-		if(oTextBoxIDG.page mod 2 != 0)
-		{
-			oTextBoxIDG.playerTalking = false;
-		}
-		else
-		{
-			oTextBoxIDG.playerTalking = true;
-		}
-	}
-	
-	// Appear choices
-	//if ((oTextBoxIDG.page == 3) && (oTextBoxIDG.charCount >= string_length(oTextBoxIDG.text[oTextBoxIDG.page])))
+	//if (oTextBoxIDG.page == 0)
 	//{
-	//	oTextBoxIDG.appearChoices = true;
-	//	
-	//	if (keyboard_check_pressed(ord("X")))
+	//	oTextBoxIDG.playerTalking = true;
+	//}
+	//else
+	//{
+	//	if(oTextBoxIDG.page mod 2 != 0)
 	//	{
-	//		// Left answer
-	//		//answers[0];
-	//		oTextBoxIDG.page += 1;
-	//		oTextBoxIDG.appearChoices = false;
 	//	}
-	//	else if (keyboard_check_pressed(ord("C")))
+	//	else
 	//	{
-	//		// Right answer
-	//		//answers[1];
-	//		oTextBoxIDG.page = 5;
-	//		oTextBoxIDG.appearChoices = false;
-	//	}		
+	//		oTextBoxIDG.playerTalking = true;
+	//	}
 	//}
 }
 

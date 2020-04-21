@@ -1,12 +1,13 @@
 /// @description Insert description here
 question = (text[page, 1])
-if (page==5&&pointsGiven==false)
+if (page==text[0,3]&&pointsGiven==false)
 {
 	DataTaker.bandPoints += 5;
 	pointsGiven = true;
 }
 
-if (!question){
+if (!question)
+{
 	if(keyboard_check_pressed(ord("Z")))
 	{
 		if(charCount < string_length(text[page, 0]))

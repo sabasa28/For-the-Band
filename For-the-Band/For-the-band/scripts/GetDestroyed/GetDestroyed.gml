@@ -11,7 +11,7 @@ if (instance_exists(argument1))
 {
 	if (bbox_bottom>argument1.bbox_top && (abs(argument1.x-x)<argument0))
 	{
-		if (keyboard_check_pressed(ord("F")))
+		if (keyboard_check_pressed(ord("Z")))
 		{
 			if(instance_exists(argument2))
 			if (abs(instance_nearest(x,y,argument2).x - x)<argument2.distanceToAlert)

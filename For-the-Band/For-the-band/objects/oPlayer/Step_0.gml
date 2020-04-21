@@ -4,6 +4,15 @@ key_left= keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right= keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_jump=keyboard_check(vk_space);
 
+show_debug_message(timer);
+
+timer+=delta_time/1000000;
+
+if (timer > 60 && room==1)
+{
+	audio_stop_all();
+	room_goto(2);
+}
 var movementDir = key_right - key_left;
 
 CurrVerSp+=gravity;

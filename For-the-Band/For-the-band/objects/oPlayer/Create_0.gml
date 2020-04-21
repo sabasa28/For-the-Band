@@ -16,4 +16,6 @@ else
 
 depth = 0;
 
+timer = 0;
+
 distanceToInteract=150;

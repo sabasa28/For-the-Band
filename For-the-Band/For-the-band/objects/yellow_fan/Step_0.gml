@@ -1,5 +1,5 @@
 /// @description Insert description here
-
+event_inherited();
 
 if (alert==true)
 {
@@ -36,3 +36,22 @@ if (CurrHorSp<0)
 	image_xscale = spriteScale;
 if (CurrHorSp>0)
 	image_xscale = -spriteScale;
+	
+if (instance_exists(myTextboxIDG))
+{
+	if (myTextboxIDG.page == 0)
+	{
+		myTextboxIDG.playerTalking = true;
+	}
+	else
+	{
+		if(myTextboxIDG.page mod 2 != 0)
+		{
+			myTextboxIDG.playerTalking = false;
+		}
+		else
+		{
+			myTextboxIDG.playerTalking = true;
+		}
+	}
+}
