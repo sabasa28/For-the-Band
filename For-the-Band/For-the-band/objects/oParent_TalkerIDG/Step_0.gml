@@ -1,6 +1,5 @@
 if (abs(x-oPlayer.x)<200)
 {
-	show_debug_message("aaaaa");
 	if (keyboard_check_pressed(ord("Z"))&&oPlayer.ableToMove&&spoken==false)
 	{
 		spoken=true;

@@ -19,7 +19,7 @@ textPart = string_copy(text[page,0], 1, charCount);
 draw_set_color(c_yellow);
 draw_set_halign(fa_center);
 if (playerTalking == true)
-	draw_text(X+(boxWidth/2),Y+yBuffer, namePlayer);
+	draw_text(X+(boxWidth/2),Y+yBuffer, "Zack");
 else
 	draw_text(X+(boxWidth/2),Y+yBuffer, name);
 

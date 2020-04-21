@@ -20,7 +20,7 @@ case 0:
 	myTEX[1,1] = true;
 	myTEX[1,2] = 2;
 	myTEX[2,0] = "Oh, thanks! I'll call a few friends. See you there!";
-	myTEX[2,1] = true;
+	myTEX[2,1] = false;
 	myTEX[2,2] = 4;
 	myTEX[3,0] = "Goodbye.";
 	myTEX[3,1] = false;
@@ -47,7 +47,7 @@ case 1:
 	myTEX[1,1] = true;
 	myTEX[1,2] = 2;
 	myTEX[2,0] = "Yeah, sure, nice try. Bye";
-	myTEX[2,1] = true;
+	myTEX[2,1] = false;
 	myTEX[2,2] = 4;
 	myTEX[3,0] = "Oh, really? Ok, guess I'll be there!";
 	myTEX[3,1] = false;
